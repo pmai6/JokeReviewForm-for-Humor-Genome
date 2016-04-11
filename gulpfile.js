@@ -1,0 +1,10 @@
+require('./gulp/fonts-task');
+require('./gulp/images-task');
+require('./gulp/sass-task');
+require('./gulp/scripts-task');
+require('./gulp/default-task');
+require('./gulp/reload-task');
+require('./gulp/build-task');
+require('./gulp/server-task');
+require('./gulp/watch-task');
+require('./gulp/favicon-task');

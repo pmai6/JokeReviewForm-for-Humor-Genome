@@ -1,0 +1,23 @@
+{
+  "name": "broadlinkfds",
+  "description": "Website for Broadlink FDS",
+  "main": "server.js",
+  "authors": [
+    "Michael Lin"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.6",
+    "font-awesome": "^4.5.0"
+  }
+}

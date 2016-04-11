@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">  
+  <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Sign Up Form</title>
+        <link rel="stylesheet" href="css/sign-up.css">
+        <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="form-2/assets/css/form-elements.css">
+
+        <!-- Favicon and touch icons -->
+        <link rel="shortcut icon" href="form-2/assets/ico/buzz.png">
+    </head>
+    <body class="image-body">
+      <div>
+      <!-- <img src="img/wall.jpg" id="bg" alt="">
+       -->
+      </div>
+      <div>
+        <form action="sign-up.html" method="post">
+          <img class="img-responsive" border="0" src="img/emoji.png">
+          <h1>Sign Up</h1>
+        
+          <fieldset>
+            <legend><span class="number">1</span>Your basic info</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name">
+          
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" name="user_email">
+          
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="user_password">
+          
+            <label>Age:</label><br>
+            <input type="radio" id="under_13" value="under_13" name="user_age"><label for="under_13" class="light">Under 13</label><br>
+            <input type="radio" id="over_13" value="over_13" name="user_age"><label for="over_13" class="light">13 or older</label>
+          </fieldset><br>
+          
+          <fieldset>
+            <legend><span class="number">2</span>Your profile</legend>
+            <label for="bio">Biography:</label>
+            <textarea id="bio" name="user_bio"></textarea>
+          </fieldset><br>
+
+          <fieldset>
+          <label for="job">Job Role:</label>
+          <select id="job" name="user_job">
+            <optgroup label="Web">
+              <option value="frontend_developer">Front-End Developer</option>
+              <option value="php_developor">PHP Developer</option>
+              <option value="python_developer">Python Developer</option>
+              <option value="rails_developer"> Rails Developer</option>
+              <option value="web_designer">Web Designer</option>
+              <option value="WordPress_developer">WordPress Developer</option>
+            </optgroup>
+
+            <optgroup label="Mobile">
+              <option value="Android_developer">Androild Developer</option>
+              <option value="iOS_developer">iOS Developer</option>
+              <option value="mobile_designer">Mobile Designer</option>
+            </optgroup>
+
+            <optgroup label="Business">
+              <option value="business_owner">Business Owner</option>
+              <option value="freelancer">Freelancer</option>
+            </optgroup>
+            <optgroup label="Other">
+              <option value="secretary">Secretary</option>
+              <option value="maintenance">Maintenance</option>
+            </optgroup>
+          </select><br></br>
+        
+          <label>Interests:</label><br>
+            <input type="checkbox" id="development" value="interest_development" name="user_interest"><label class="light" for="development">Development</label><br>
+              <input type="checkbox" id="design" value="interest_design" name="user_interest"><label class="light" for="design">Design</label><br>
+            <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Business</label>
+        
+          </fieldset><br>
+          <button type="submit" class="btn">Sign Up</button>
+        </form><br>
+      </div>
+
+
+      <!-- Footer -->
+      <footer>
+          <div class="container text-center">
+           <p>Copyright &copy; GT Humor Genome V.I.P, 2016</p>
+        </div>
+      </footer>
+      
+      <!-- Javascript -->
+      <script src="assets/js/jquery-1.11.1.min.js"></script>
+      <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+      <script src="assets/js/jquery.backstretch.min.js"></script>
+      <script src="assets/js/scripts.js"></script>
+        
+
+    </body>
+</html>

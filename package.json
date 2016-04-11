@@ -1,0 +1,35 @@
+{
+  "name": "joke review",
+  "version": "0.0.1",
+  "description": "Web App for Humor Genome V.I.P",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "./node_modules/bower/bin/bower install && gulp build",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.gatech.edu/pmai6/JokeReviewForm.git.git"
+  },
+  "author": "Zurie Mai",
+  "license": "MIT",
+  "dependencies": {
+    "bower": "^1.7.7",
+    "browser-sync": "^2.11.1",
+    "express": "^4.13.4",
+    "gulp": "^3.9.1",
+    "gulp-bower": "0.0.13",
+    "gulp-cache": "^0.4.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-uglify": "^1.5.3",
+    "jshint": "^2.9.1"
+  },
+  "devDependencies": {}
+}

@@ -50,6 +50,13 @@ h1 {
   text-align: center;
 }
 
+/*th {
+    background-color: #4CAF50;
+    color: white;
+}*/
+
+tr:nth-child(even) {background-color: #b3d9ff}
+
 input[type="text"],
 input[type="password"],
 input[type="date"],
